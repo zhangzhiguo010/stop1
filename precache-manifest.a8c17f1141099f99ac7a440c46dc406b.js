@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d6bb10c6e24100119f5c1f88e5c64f5e",
-    "url": "/resume-2018/static/media/1层.d6bb10c6.jpg"
+    "revision": "bf6e10c6bffa08e6772fe41939d1aab0",
+    "url": "/resume-2018/static/media/topBarBgImg.bf6e10c6.jpg"
   },
   {
-    "revision": "298df5711ec66e9a8415",
-    "url": "/resume-2018/static/css/main.33dfe5f2.chunk.css"
+    "revision": "547f398a045ef658e09d",
+    "url": "/resume-2018/static/css/main.ff6f1d59.chunk.css"
   },
   {
     "revision": "854ce757d2f1578fe007",
@@ -20,8 +20,12 @@ self.__precacheManifest = [
     "url": "/resume-2018/static/media/photo.c44dce0a.jpg"
   },
   {
-    "revision": "298df5711ec66e9a8415",
-    "url": "/resume-2018/static/js/main.298df571.chunk.js"
+    "revision": "547f398a045ef658e09d",
+    "url": "/resume-2018/static/js/main.547f398a.chunk.js"
+  },
+  {
+    "revision": "d6bb10c6e24100119f5c1f88e5c64f5e",
+    "url": "/resume-2018/static/media/1层.d6bb10c6.jpg"
   },
   {
     "revision": "54d7fb76b4198258e12371ee589dc9c5",
@@ -36,11 +40,7 @@ self.__precacheManifest = [
     "url": "/resume-2018/static/media/4层.053654b5.jpg"
   },
   {
-    "revision": "bf6e10c6bffa08e6772fe41939d1aab0",
-    "url": "/resume-2018/static/media/topBarBgImg.bf6e10c6.jpg"
-  },
-  {
-    "revision": "05f2ed0dee861ed99e7d0c4f85bc245d",
+    "revision": "f18b3b2ee9061365154419478cf574e7",
     "url": "/resume-2018/index.html"
   }
 ];

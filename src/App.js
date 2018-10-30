@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react'
+import TopNavBar from './component/topNavBar/index'
+import Card from './component/card/index'
+import Require from './component/require/index'
+import WorkItem from './component/workItem/index'
+import SkillChart from './component/skillChart/index'
+import Message from './component/message/index'
+import './App.css'
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+export default class App extends  Component{
+    render(){
+        return (
+            <div className='app_wrapper'>
+                <TopNavBar />
+                <figure className='banner'></figure>
+                <div className='main'>
+                    <Card />
+                    <Require />
+                    <SkillChart />
+                    <WorkItem />
+                    <Message />
+                </div>
+            </div>
+        )
+    }
 }
-
-export default App;
